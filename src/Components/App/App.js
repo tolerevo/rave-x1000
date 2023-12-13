@@ -1,9 +1,10 @@
-import './App.css';
+import './App.module.css';
+import Business from '../Business/Business';
 
 function App() {
   return (
     <div className="App">
-     Hello React!
+     <Business />
     </div>
   );
 }

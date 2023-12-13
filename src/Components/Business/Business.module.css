@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.cardImage {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+.cardTitle {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1;
+}
+
+.cardInfo {
+  display:inline-block;
+  padding: 5px;
+  line-height: normal;
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color:darkslategrey;
+}
+
+.cardInfoGold {
+  color: hsla(16, 50%, 53%, 1);
+  display: inline-block;
+  padding: 5px;
+  line-height: normal;
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
