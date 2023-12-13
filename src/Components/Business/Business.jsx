@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './Business.module.css';
+import React from "react";
+import styles from "./Business.module.css";
 
 const Business = ({ business }) => {
   return (
