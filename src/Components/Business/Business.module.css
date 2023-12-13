@@ -1,48 +1,67 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
+.Business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 0 0.5rem 2.3rem 0.5rem;
+}
+
+.Business .imageContainer {
+  height: 16.66rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.Business h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.BusinessInformation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.BusinessInformation p {
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1rem;
   margin: 0;
 }
 
-.card {
+.BusinessReviews h3 {
+  margin: 0;
+}
+
+.BusinessAddress {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content:space-evenly;
-}
-.cardImage {
-  width: auto;
-  height: auto;
-  border: 1px solid black;
+  justify-content: space-between;
 }
 
-.cardTitle {
-  font-size: 1em;
-  font-weight: 500;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1;
+.BusinessReviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
 }
 
-.cardInfo {
-  display:inline-block;
-  padding: 5px;
-  line-height: normal;
-  text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.9rem;
-  font-weight: 700;
-  color:darkslategrey;
+.BusinessReviews h3 {
+  color: #cca353;
+  font-weight: 600;
 }
 
-.cardInfoGold {
-  color: hsla(16, 50%, 53%, 1);
-  display: inline-block;
-  padding: 5px;
-  line-height: normal;
-  text-align: justify;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.9rem;
-  font-weight: 700;
+.BusinessReviews .rating {
+  font-size: 0.88rem;
+  line-height: 1rem;
 }
