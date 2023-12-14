@@ -2,11 +2,14 @@
 
 html {
   font-size: 18px;
+  background-color: rgb(236, 185, 118);
+  background-size: cover;
 }
 
 html,
 body {
   margin: 0;
+  background-color: rgb(236, 185, 118);
 }
 
 @media only screen and (max-width: 560px) {
@@ -23,6 +26,7 @@ input:focus {
 
 .App {
   font-family: "Work Sans", sans-serif;
+
 }
 
 .App h1 {
